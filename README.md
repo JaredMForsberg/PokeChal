@@ -4,7 +4,7 @@ An AI agent developed for the Pokémon TCG AI Battle Challenge hosted by Kaggle 
 
 Overview
 
-This repository contains my implementation, experiments, and training pipeline for the competition.
+This repository contains our implementation, experiments, and training pipeline for the competition.
 
 Current objectives include:
 
@@ -14,22 +14,35 @@ Evaluating strategies against benchmark opponents
 Improving consistency through automated self-play and analysis
 Project Structure
 .
+
 ├── src/                # Source code
+
 ├── models/             # Saved models/checkpoints
+
 ├── configs/            # Configuration files
+
 ├── notebooks/          # Research and experimentation
+
 ├── logs/               # Training and evaluation logs
+
 ├── submissions/        # Competition submissions
+
 └── README.md
+
 Approach
 
 This project is currently exploring:
 
 Rule-based decision making
+
 State evaluation heuristics
+
 Search/planning algorithms
+
 Reinforcement learning
+
 Self-play training
+
 Game state feature engineering
 
 As development progresses, this section will be updated with the final architecture and methodology.
